@@ -12,7 +12,9 @@ Competitive Advantage quantifies a fighting game players' tournament results and
 
 * As a person trying to figure out the best strategy to use vs my opponent, I want to see my opponents strengths and weaknesses with a suggested strategy.
 
+* As a person trying to study my opponents losses, I want to be able to watch footage of the loss if it exists.
 
+* As a person trying to study my opponents wins, I want to be able to watch footage of the win if it exists.
 
 <!-- ## Wireframes
 
