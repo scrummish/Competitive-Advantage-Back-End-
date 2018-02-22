@@ -1,7 +1,7 @@
 const 	mongoose = require('mongoose'),
-		Schema = mongoose.schema,
 		Win = require('./winsModel.js'),
-		Loss = require('./lossesModel.js')
+		Loss = require('./lossesModel.js'),
+		Schema = mongoose.schema;
 
 
 const playerSchema = new mongoose.Schema({
