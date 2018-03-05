@@ -46,7 +46,7 @@ User profile page         |  Agents request view page
 * <a href="https://github.com/expressjs/body-parser">body-parser</a> - Middleware for parsing incoming request bodies 
 * <a href="https://github.com/expressjs/method-override">method-override</a> - Middleware used to override HTTP Verbs
 * <a href="https://en.wikipedia.org/wiki/HTML">HTML5</a> - Front end technology used to create the basic layout of each web page
-* <a href="https://www.javascript.com/">javscript</a> - Programming language used for most of the apps functionality
+* <a href="https://www.javascript.com/">JavaScript</a> - Programming language used for most of the apps functionality
 
 ## Requirements for install/use
 App is available <a href="">HERE</a><br>

@@ -9,7 +9,7 @@ const lossesSchema = new mongoose.Schema({
 	lostTo: String, // Player lost to
 	characterLostTo: {type: String, required: true}, // Character lost to
 	game: {type: String, required: true},
-	tournament: String, // Predefined list of tournaments
+	tournament: String, // tournaments
 	strengths: [String], // Predefined list of strengths shown in the MU
 	weaknesses: [String] // Predefined list of weaknesses shown in the MU
 })

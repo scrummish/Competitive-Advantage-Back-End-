@@ -11,7 +11,7 @@ const winsSchema = new mongoose.Schema({
 	game: {type: String, required: true}, // What game was it
 	strengths: [String], // Predefined list of strengths shown in the match up
 	weaknesses: [String], // Predefined list of weaknesses shown in the match up
-	tournament: String // Predefined list of tournaments
+	tournament: String // tournaments
 })
 
 module.exports = mongoose.model('Wins', winsSchema);
