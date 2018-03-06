@@ -10,8 +10,8 @@ const lossesSchema = new mongoose.Schema({
 	characterUsed: {type: String, required: true}, // Character used
 	game: {type: String, required: true}, // Predefined list of games
 	tournament: String, // Predefined list of tournaments
-	strengths: [String], // Predefined list of strengths shown in the Match
-	weaknesses: [String] // Predefined list of weaknesses shown in the Match
+	strengths: String, // Predefined list of strengths shown in the Match
+	weaknesses: String // Predefined list of weaknesses shown in the Match
 })
 
 module.exports = mongoose.model('Losses', lossesSchema);

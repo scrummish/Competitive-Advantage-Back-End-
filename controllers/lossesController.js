@@ -4,20 +4,25 @@ const express = require('express'),
 	  Loss = require('../models/lossesModel.js');
 
 router.route('/:id')
+	.get((req,res)=>{
+		Player.findById(req.params.id,(err,foundPlayer)=>{
+			res.send(foundPlayer.losses)
+		})
+	})
 	.post((req,res)=>{
 		// Find the player who owns the Loss
 		Player.findById(req.params.id, (err,found)=>{
 			// Create a new loss 
 			const playerLoss = {
-				video: req.params.video,
+				video: req.body.video,
 				playerId: found.id,
-				characterLostTo: req.params.characterLostTo,
-				playerLostTo: req.params.playerLostTo,
-				characterUsed: req.params.characterUsed,
-				game: req.params.game,
-				tournament: req.params.tournament,
-				strengths: req.params.strengths,
-				weaknesses: req.params.weaknesses
+				characterLostTo: req.body.characterLostTo,
+				playerLostTo: req.body.playerLostTo,
+				characterUsed: req.body.characterUsed,
+				game: req.body.game,
+				tournament: req.body.tournament,
+				strengths: req.body.strengths,
+				weaknesses: req.body.weaknesses
 			}
 			Loss.create(playerLoss,(err,created)=>{
 				// Push the created loss into the players list of losses
