@@ -22,8 +22,11 @@ app.use(function(req, res, next) {
 const PlayerController = require('./controllers/playerController.js');
 app.use('/player/', PlayerController);
 
+const LossesController = require('./controllers/lossesController.js');
+app.use('/loss/', LossesController);
+
 app.get('/',(req,res)=>{
-	res.send('/user/login');
+	res.send('success');
 })
 
 app.get('*',(req,res)=>{

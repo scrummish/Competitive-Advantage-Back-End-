@@ -9,7 +9,7 @@ module.exports = [
 	{ img: 'https://www.injustice.com/storage/characters/deadshot/thumb.jpg', name: 'deadshot', game: 'Injustice 2'},
 	{ img: 'https://www.injustice.com/storage/characters/harley-quinn/thumb.jpg', name: 'harley quinn', game: 'Injustice 2'},
 	{ img: 'https://www.injustice.com/storage/characters/the-flash/thumb.jpg', name: 'the flash', game: 'Injustice 2'},
-	{ img: 'https://www.injustice.com/storage/characters/blue-beatle/thumb.jpg', name: 'blue beatle', game: 'Injustice 2'},
+	{ img: 'https://www.injustice.com/storage/characters/blue-beetle/thumb.jpg', name: 'blue beatle', game: 'Injustice 2'},
 	{ img: 'https://www.injustice.com/storage/characters/black-canary/thumb.jpg', name: 'black canary', game: 'Injustice 2'},
 	{ img: 'https://www.injustice.com/storage/characters/bane/thumb.jpg', name: 'bane', game: 'Injustice 2'},
 	{ img: 'https://www.injustice.com/storage/characters/swamp-thing/thumb.jpg', name: 'swamp thing', game: 'Injustice 2'},
